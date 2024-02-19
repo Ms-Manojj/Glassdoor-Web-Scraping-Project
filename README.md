@@ -6,7 +6,14 @@ This dataset contains information scraped from Glassdoor, providing insights int
 
 Columns:
 
-company_names: The names of the companies under review. rating: Overall company rating on Glassdoor, ranging from 1 to 5, with higher values indicating greater employee satisfaction. employer_size: The size of the company based on the number of employees. Categories include "1001 to 5000 Employees" and "10000+ Employees." industry: The industry to which the company belongs (e.g., "Insurance Agencies & Brokerages," "Construction," "Advertising & Public Relations," "Enterprise Software & Network Solutions"). review: The number of employee reviews or feedback about the company. salaries: Represents either the number of salary reviews or the average salary satisfaction score provided by employees. jobs: The number of job openings or job-related information available on Glassdoor for each company. location: The location details of the company, including headquarters or office locations, city, and country.
+company_names: The names of the companies under review. 
+rating: Overall company rating on Glassdoor, ranging from 1 to 5, with higher values indicating greater employee satisfaction. 
+employer_size: The size of the company based on the number of employees. Categories include "1001 to 5000 Employees" and "10000+ Employees." 
+industry: The industry to which the company belongs (e.g., "Insurance Agencies & Brokerages," "Construction," "Advertising & Public Relations," "Enterprise Software & Network Solutions"). 
+review: The number of employee reviews or feedback about the company. 
+salaries: Represents either the number of salary reviews or the average salary satisfaction score provided by 
+employees. jobs: The number of job openings or job-related information available on Glassdoor for each company. 
+location: The location details of the company, including headquarters or office locations, city, and country.
 
 Usage:
 
