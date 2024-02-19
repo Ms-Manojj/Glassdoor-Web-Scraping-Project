@@ -1,18 +1,21 @@
-I have scraped data from the Glassdoor website, featuring the following details:
+### Glassdoor Company Reviews Dataset
 
-company_names: The names of the companies under review.
+Overview:
 
-rating_new: The overall rating of the company, as provided by employees on Glassdoor. Ratings typically range from 1 to 5, with higher values indicating better satisfaction.
+This dataset contains information scraped from Glassdoor, providing insights into various companies. The dataset includes details such as company names, ratings, employer size, industry, reviews, salary information, job openings, and locations.
 
-employer_size: The size of the company in terms of the number of employees. Categories like "1001 to 5000 Employees" and "10000+ Employees" provide a range of the company's workforce.
+Columns:
 
-industry: The industry to which the company belongs. Examples include "Insurance Agencies & Brokerages," "Construction," "Advertising & Public Relations," and "Enterprise Software & Network Solutions."
+company_names: The names of the companies under review. rating: Overall company rating on Glassdoor, ranging from 1 to 5, with higher values indicating greater employee satisfaction. employer_size: The size of the company based on the number of employees. Categories include "1001 to 5000 Employees" and "10000+ Employees." industry: The industry to which the company belongs (e.g., "Insurance Agencies & Brokerages," "Construction," "Advertising & Public Relations," "Enterprise Software & Network Solutions"). review: The number of employee reviews or feedback about the company. salaries: Represents either the number of salary reviews or the average salary satisfaction score provided by employees. jobs: The number of job openings or job-related information available on Glassdoor for each company. location: The location details of the company, including headquarters or office locations, city, and country.
 
-review: The number of reviews or feedback provided by employees about the company.
+Usage:
 
-salaries: This could represent the number of salary reviews or the average salary satisfaction score provided by employees.
+This dataset is suitable for exploratory data analysis, trend analysis, and deriving insights into the relationships between company attributes and employee satisfaction. Researchers, analysts, and data enthusiasts can leverage this dataset to explore patterns within different industries and company sizes.
 
-jobs: The number of job openings or job-related information available on Glassdoor for that particular company.
+Source:
 
-location: The location details of the company, such as headquarters or office locations. It includes information like city and country.
+The data was collected by scraping Glassdoor, a popular job and company review platform.
 
+Note:
+
+This dataset is for educational and analytical purposes only. Respect the terms of service of Glassdoor and consider ethical considerations when using scraped data.
